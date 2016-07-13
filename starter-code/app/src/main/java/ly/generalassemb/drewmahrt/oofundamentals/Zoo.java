@@ -19,8 +19,9 @@ public class Zoo {
         return zoo;
     }
 
-    public void addAnimal(Animal animal){
+    public ArrayList<Animal> addAnimal(Animal animal){
         animals.add(animal);
+        return null;
     }
 
     public ArrayList<Animal> getAnimals(){

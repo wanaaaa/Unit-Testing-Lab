@@ -6,9 +6,9 @@ package ly.generalassemb.drewmahrt.oofundamentals;
 public class Lion extends Mammal {
     private boolean mIsAlpha;
 
-    public Lion(boolean isAlpha){
+    public Lion(){
         super(4, 50, false, "Lion");
-        mIsAlpha = isAlpha;
+        mIsAlpha = true;
     }
 
     public boolean isAlpha() {

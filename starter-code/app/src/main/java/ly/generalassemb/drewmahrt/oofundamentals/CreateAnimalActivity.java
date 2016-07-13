@@ -31,7 +31,7 @@ public class CreateAnimalActivity extends AppCompatActivity {
 
                 if(mRequestCode == MainActivity.ADD_LION){
                     //create new Lion object to pass back
-                    Lion lion = new Lion(mCheckBox.isChecked());
+                    Lion lion = new Lion();
                     intent.putExtra(ANIMAL_SERIALIZABLE_KEY, lion);
                 }else{
                     //create new Snake object to pass back
