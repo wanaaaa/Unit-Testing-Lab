@@ -21,7 +21,6 @@ Just like in the original Animals lab, there are Mammal and Reptile classes that
 Begin with the [code provided](starter-code) and write tests to make sure:
 - The animals make their appropriate sounds
 - The animals have their appropriate top speeds
-- If an animal has a boolean property, it holds the correct value
 - The Zoo properly adds and removes animals
 
 Remember:
